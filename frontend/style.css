@@ -46,6 +46,11 @@ body {
     left:650px; 
     top:350px;
 }
+.tryAgainMessage {
+    position: fixed; 
+    left:600px; 
+    top:350px;
+}
 .searchButton {
     position: fixed; 
     left:850px; 
