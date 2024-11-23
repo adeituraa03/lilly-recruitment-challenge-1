@@ -30,3 +30,24 @@ body {
 }
 
 /* ---- Your custom styles below ---- */
+
+.searchLabel {
+    position: fixed; 
+    left:500px; 
+    top:280px; 
+}
+.inputUser {
+    position: fixed; 
+    left:650px; 
+    top:280px;
+}
+.result {
+    position: fixed; 
+    left:650px; 
+    top:350px;
+}
+.searchButton {
+    position: fixed; 
+    left:850px; 
+    top:280px;
+}

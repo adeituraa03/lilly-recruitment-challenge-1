@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
 </head>
 <body>
     <div class="disclaimer" id="disclaimer">
@@ -16,6 +17,13 @@
     <main>
 
     </main>
-    <script src="script.js"></script>
+    
+    <section>
+        <label class="searchLabel" for="search">Enter a medicine:</label><br>
+        <input class="inputUser" type="text" id="search" name="search"><br>
+        <h4 id="result" style="position: fixed; left:650px; top:350px;"></h4>
+        <button class="searchButton" type="button" onclick="displayMedicine()">Search</button>
+
+    </section>
 </body>
 </html>
