@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
+</head>
+<body>
+    <div class="disclaimer" id="disclaimer">
+        Disclaimer: All medicine names and prices used in this application are fictional and do not represent any real medicine(s).
+    </div>
+    <header>
+        <h1>Medicine Tracker</h1>
+    </header>
+    <main>
+        
+
+        <div id="inputData">
+            <label class="medNameLabel" for="input">Input the medicine name:</label><br>
+            <input class="medicineName" type="text" id="name" name="name"><br>
+            <label class="medPriceLabel" for="input">Input the medicine price:</label><br>
+            <input class="medicinePrice" type="text" id="price" name="price"><br>
+            <h4 id="errorMessage" class="errorMessage"></h4>
+            <h4 id="inputDataMessage" class="inputMessage"></h4>
+            <button class="inputButton" type="button" onclick="inputMedicine()">Input Data</button>
+            <a href="index.html">
+                <button id="backButton" class="backB" type="button">Back</button>
+            </a>
+        </div>
+
+
+
+        
+    </main>
+    
+    
+</body>
+</html>

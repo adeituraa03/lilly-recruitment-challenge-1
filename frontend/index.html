@@ -15,16 +15,24 @@
         <h1>Medicine Tracker</h1>
     </header>
     <main>
+        
+        <div>
+            <a href="inputMedicine.html">
+                <button id="inputData" class="inputData" type="button" onclick="inputMedicine()">Input Data</button>
+            </a>
+            <a href="getMedicine.html">
+                <button id="getData" class="getData" type="button" onclick="displayMedicine()">Retrieve Data</button>
+            </a>
+            
+            
+        </div>
 
+
+
+
+        
     </main>
     
-    <section>
-        <label class="searchLabel" for="search">Enter a medicine:</label><br>
-        <input class="inputUser" type="text" id="search" name="search"><br>
-        <h4 id="result" class="result"></h4>
-        <h4 id="tryAgainMessage" class="tryAgainMessage"></h4>
-        <button class="searchButton" type="button" onclick="displayMedicine()">Search</button>
-
-    </section>
+    
 </body>
 </html>
