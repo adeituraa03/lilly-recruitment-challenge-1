@@ -49,6 +49,7 @@ async function displayMedicine() {
 }
 
 async function inputMedicine() {
+    
     let medicineName = document.getElementById("name").value;
     let medicinePrice = document.getElementById("price").value;
     const errorMessage = document.getElementById("errorMessage");
@@ -81,6 +82,8 @@ async function inputMedicine() {
 
     } catch (error) {              // if the HTTP status code is not successful 
         console.log('Error', error)                     // debugging statement
-        errorMessage.innerHTML = `<p style="color: red;">${error}</p>`;      // displays the error
+        errorMessage.innerHTML = `<p style="color: red;">Not a valid value - please enter integers for the price!</p>`;      // displays the error
+        document.getElementById("name").value = "";
+        document.getElementById("price").value = "";
     }
 }
